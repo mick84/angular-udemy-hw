@@ -8,7 +8,7 @@ import { NumberEvent, StateEvent } from './gamecontrol/gamecontrol.component';
 })
 export class AppComponent {
   public emittedNumbers: number[] = [];
-
+  public state: 'on' | 'off' | 'pause' = 'off';
   constructor() {}
 
   onNumberEmitted({ emittedNumber }: NumberEvent) {
@@ -24,5 +24,6 @@ export class AppComponent {
       case 'pause':
         break;
     }
+    this.state = state;
   }
 }

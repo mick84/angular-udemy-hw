@@ -4,7 +4,7 @@
 />
 <div class="app-output d-flex flex-column align-items-center">
   <div *ngFor="let num of emittedNumbers">
-    <app-even *ngIf="num % 2 === 0" />
-    <app-odd *ngIf="num % 2 === 1" />
+    <app-even *ngIf="num % 2 === 0">{{ num }}</app-even>
+    <app-odd *ngIf="num % 2 === 1">{{ num }}</app-odd>
   </div>
 </div>

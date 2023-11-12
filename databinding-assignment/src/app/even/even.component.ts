@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './even.component.html',
   styleUrls: ['./even.component.scss'],
 })
-export class EvenComponent {}
+export class EvenComponent {
+  constructor() {}
+}

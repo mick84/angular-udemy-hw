@@ -15,6 +15,7 @@ export class GamecontrolComponent implements OnInit {
   ngOnInit(): void {}
 
   startGame(): void {
+   
     console.log('Game started!');
 
     this.interval = setInterval(() => {
