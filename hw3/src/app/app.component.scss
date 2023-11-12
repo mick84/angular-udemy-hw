@@ -1,0 +1,6 @@
+.date {
+  &:nth-of-type(n + 6) {
+    background-color: blue;
+    color: white;
+  }
+}
