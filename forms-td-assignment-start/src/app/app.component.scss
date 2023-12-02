@@ -1,0 +1,9 @@
+form {
+  border: 2px solid blue;
+  &.ng-invalid.ng-dirty {
+    border-color: red;
+  }
+  &.ng-valid {
+    border-color: green;
+  }
+}
